@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 21px;
+    background-color: #FFF;
+
+}
+
+h1 , h4 {
+    font-family: 'Playfair Display', serif;
+    margin: 20px;
+}
+
+.contenedor {
+    margin: auto;
+    max-width: 1440px;
+}
+
+.parrafo1, img {
+    display: inline;
+    color: #5e5d5d;
+}
+
+i {
+    color: #444343;
+}
+
+.imagenp {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenp img {
+    width: 1380px;
+}
+
+.hijo2 {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    margin: 30px;
+    gap: 10px;
+}
+/* aliniando la cajas */
+
+.lista {
+    min-width:45px;
+    height: 45px;
+    background-color: #f2994a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+
+a {
+    text-decoration: none;
+    color:#BDBDBD;
+    padding-top: 30px;
+    display: block;
+}
+
+
+footer {
+    color: #333;
+    padding-left: 60px;
+    padding-top:  100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_1 {
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    font-size: 29px;
+}
+/* configuracion de la caja de tiempo */
+.madre {
+   display: flex;
+}
+
+
+.simbolos {
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 8px;
+    border: solid 1px #e9e5e5;
+    height: 400px;
+    box-shadow:1px 1px 10px 0px #444343 ;
+    padding: 20px;
+    width: 300px;
+    
+}
+
+.madre img {
+    width: 35px;
+}
+
+.hijo2 {
+    padding-right: 600px ;
+}
+
+.span1 {
+    color: #f2994a; 
+    padding-left: 20px;   
+}
+
+.simbolos span {
+    padding-left: 20px;
+}
+
+.simbolos b {
+    color: #BDBDBD;
+}
+
+footer span {
+    text-decoration: underline;
+}
+
+
+ul {
+list-style-image: url('./recursos/square.png');
+
+}
+
+li {
+    padding-bottom: 15px;
+}
+
